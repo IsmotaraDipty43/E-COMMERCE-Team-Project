@@ -25,19 +25,19 @@
 		
 		.sidebar {
     position: fixed;
-    top: 50px; /* Adjust top position as needed */
-    right: -200px; /* Adjust the value to control initial sidebar position */
-    width: 200px; /* Adjust the width as needed */
-    height: calc(100% - 50px); /* Adjust the height as needed */
-    background-color: #f4f4f4; /* Adjust background color */
-    transition: right 0.3s ease; /* Add smooth transition effect */
-    z-index: 999; /* Ensure the sidebar stays on top of other content */
-    border-left: 1px solid #ccc; /* Add border for separation */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    top: 50px; 
+    right: -200px; 
+    width: 200px; 
+    height: calc(100% - 50px); 
+    background-color: #f4f4f4; 
+    transition: right 0.3s ease; 
+    z-index: 999;
+    border-left: 1px solid #ccc; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar.open {
-    right: 0; /* Show sidebar when it's open */
+    right: 0;
 }
 
 .content {
@@ -45,7 +45,7 @@
 }
 
 .head {
-    background-color: #ccc; /* Adjust header background color */
+    background-color: #ccc; 
     padding: 10px;
     text-align: center;
 }
@@ -58,12 +58,12 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-color: #ddd; /* Adjust footer background color */
+    background-color: #ddd;
     padding: 10px;
 }
 .payment-options-container {
             position: relative;
-            text-align: center; /* Center the next button */
+            text-align: center; 
         }
 
         /* Next button */
@@ -71,12 +71,11 @@
             margin-top: 20px;
         }
 
-        /* Additional styles for the next button */
         .next-button a {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #007bff; /* Your desired background color */
-            color: #fff; /* Your desired text color */
+            background-color: #007bff; 
+            color: #fff; 
             text-decoration: none;
             border-radius: 5px;
         }
@@ -143,7 +142,7 @@
 
 
 									<li>
-                                    <a href="loginpage.html" class="bar-opener">
+                                    <a href="./loginpage.html" class="bar-opener">
 											<span class="bar"></span>
 											<span class="bar small"></span>
 											<span class="bar"></span>
@@ -154,17 +153,17 @@
 								<nav id="nav">
 									<ul>
 										<li>
-											<a href="index.html">HOME <i class="fa fa-angle-down hidden-lg hidden-md" aria-hidden="true"></i></a>
+											<a href="./index.html">HOME <i class="fa fa-angle-down hidden-lg hidden-md" aria-hidden="true"></i></a>
 										</li>
 										<li>
-											<a href="product-grid-view.html">PRODUCTS <i class="fa fa-angle-down hidden-lg hidden-md" aria-hidden="true"></i></a>
+											<a href="./product-grid-view.html">PRODUCTS <i class="fa fa-angle-down hidden-lg hidden-md" aria-hidden="true"></i></a>
 										</li>
 										
 										
 										
-										<li><a href="about-us.html">About</a></li>
+										<li><a href="./about-us.html">About</a></li>
 										<li>
-											<a  href="contact-us.html">Contact <i class="fa fa-angle-down hidden-lg hidden-md" aria-hidden="true"></i></a>
+											<a  href="./contact-us.html">Contact <i class="fa fa-angle-down hidden-lg hidden-md" aria-hidden="true"></i></a>
 											
 										</li>
 									</ul>
@@ -244,13 +243,11 @@
                         
                         <script>
                             function handleSubmit(event) {
-                                event.preventDefault(); // Prevent the default form submission behavior
+                                event.preventDefault(); 
                                 
-                                // Simulate form submission, validate or process the data if needed
+                              
                                 console.log("Form submitted!");
-                        
-                                // Redirect to index.html after submission
-                                window.location.href = "index.html";
+                                window.location.href = "./index.html";
                             }
                         </script>
                         
@@ -275,7 +272,7 @@
                 <!-- F Widget About of the Page -->
                 <div class="f-widget-about">
                   <div class="logo">
-                    <a href="index.html"><img src="./images/Finallogo-wb.png" alt="GG"></a>
+                    <a href="./index.html"><img src="./images/Finallogo-wb.png" alt="GG"></a>
                   </div>
                  <p> GadgetGalaxy, your ultimate destination for cutting-edge tech and innovative gadgets! Step into a universe where the latest trends in technology converge with unparalleled convenience. At GadgetGalaxy, we're passionate about bringing you the most exciting gadgets that not only enhance your life but also spark your imagination.</p>
                   <ul class="list-unstyled address-list">
@@ -305,12 +302,12 @@
                 <div class="nav-widget-1">
                   <h3 class="f-widget-heading">Information</h3>
                   <ul class="list-unstyled f-widget-nav">
-                  <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="contact-us.html">Contact Us</a></li>
+                  <li><a href="./about-us.html">About Us</a></li>
+                    <li><a href="./contact-us.html">Contact Us</a></li>
                     <li><a href="#">Terms &amp; Conditions</a></li>
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Customer Service</a></li>
-                    <li><a href="faq.html">FAQs</a></li>
+                    <li><a href="./faq.html">FAQs</a></li>
                   </ul>
                 </div>
                 <!-- Footer Nav of the Page end -->
@@ -319,10 +316,10 @@
                   <h3 class="f-widget-heading">Account</h3>
                   <ul class="list-unstyled f-widget-nav">
                     <li><a href="#">My Account</a></li>
-                    <li><a href="ordertracking.html">Order Tracking</a></li>
-                    <li><a href="wishlist.html">Wish List</a></li>
-                    <li><a href="order-shopping-cart.html">Shopping Cart</a></li>
-                    <li><a href="order-checkout.html">Checkout</a></li>
+                    <li><a href="./ordertracking.html">Order Tracking</a></li>
+                    <li><a href="./wishlist.html">Wish List</a></li>
+                    <li><a href="./order-shopping-cart.html">Shopping Cart</a></li>
+                    <li><a href="./order-checkout.html">Checkout</a></li>
                   </ul>
                 </div>
                 <!-- Footer Nav of the Page end -->
